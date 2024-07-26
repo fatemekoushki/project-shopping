@@ -1,0 +1,85 @@
+.details{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 50px;
+  }
+  
+
+  .details .image-container{
+    max-width: 400px;
+    width: 100%;
+    margin: 20px;
+    height: 450px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+  }
+  .details .image-container:hover{
+    background-size: 150%;
+    border: 1px solid #ddd;
+    cursor: zoom-in;
+  }
+  
+  .box-details{
+    
+    max-width: 500px;
+    width: 100%;
+    margin: 20px;
+  }
+  
+  .box-details h2{
+    color: darkblue;
+    letter-spacing: 2px;
+    font-size: 2.2rem;
+  }
+  .box-details h3{
+    margin: 10px 0;
+    font-size: 1.5rem;
+  }
+  .box-details p{
+    line-height: 1.5;
+    margin: 10px 0;
+    opacity: .8;
+    font-size: .8rem;
+  }
+  .details .btn-addproduct{
+    border: none;
+    background: transparent;
+    outline: none;
+    background-color: #508D4E;
+    color: #fff;
+   transition: .4s all ease-in-out;
+    font-size: .8rem;
+    padding: .3rem .5rem;
+    border-radius: 10px;
+    margin-right: 20rem;
+  }
+  .details .btn-addproduct:hover{
+    background-color: #ccc;
+    color: #333;
+  }
+  
+  .box-details .thumb{
+    display: flex;
+    cursor: pointer;
+  }
+  
+  .box-details .thumb img{
+    width: 50px;
+    margin: 20px;
+    overflow: hidden;
+  }
+  
+  .box-details .cart{
+    width: 200px;
+    height: 35px;
+    letter-spacing: 2px;
+  }
+  

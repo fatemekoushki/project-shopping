@@ -1,0 +1,147 @@
+#filter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:  1.2rem;
+}
+
+.sort {
+    display: flex;
+}
+.sort .sort-title {
+    font-size: 1rem;
+}
+.form-checkbox{
+    padding: 10px ;
+    font-size: 0.8rem;
+   
+}
+
+.form-checkbox .form-group lable {
+    margin-right: .3rem;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    
+}
+.brand select {
+    border: none;
+    outline: none;
+    padding: 5px;
+    width: 10rem ;
+    margin-right: 0.2rem;
+    border-radius: 10px;
+    font-size: 0.9rem;
+
+}
+
+.shopping-cart{
+    position: relative;
+    padding: 2rem;
+    font-size: 2rem;
+    text-align: center;
+}
+.shopping-cart span {
+    width: 1.1rem;height: 1rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 2rem;
+    font-size: .7rem;
+    background-color: #508D4E ;
+    color: #fff;
+}
+
+@media screen and (max-width : 720px) {
+    .sort .sort-title {
+        font-size: .8rem;
+    }
+    .form-checkbox{
+        padding: 8px ;
+        font-size: 0.7rem;
+       
+    }
+    
+    .form-checkbox .form-group lable {
+        margin-right: .3rem;
+    }
+    .brand {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: .8rem;
+        
+    }
+    .brand select {
+        border: none;
+        outline: none;
+        padding: 5px;
+        width: 6rem ;
+        margin-right: 0.2rem;
+        background-color: #777c64 ;
+        border-radius: 10px;
+        font-size: 0.6rem;
+    
+    }
+
+   
+    
+}
+@media screen and (max-width : 520px) {
+   .sort{
+    display: none;
+   }
+    
+    
+    .brand {
+       
+        font-size: .8rem;
+        margin-left: 0%;
+        
+    }
+    .brand select {
+        border: none;
+        outline: none;
+        padding: 7px;
+        width: 8rem ;
+        margin-right: 0.2rem;
+        background-color: #777c64 ;
+        border-radius: 10px;
+        font-size: 0.6rem;
+        
+    
+    }
+    .brand span {
+        display: none;
+    }
+    .shopping-cart{
+        padding: 1.9rem;
+        font-size: 1.9rem;
+    }
+
+   
+    
+}
+@media screen and (max-width : 370px){
+  
+    
+    .brand select {
+        border: none;
+        outline: none;
+        padding: 5px;
+        width: 6rem ;
+        margin-right: 0.2rem;
+        background-color: #777c64 ;
+        border-radius: 10px;
+        font-size: 0.6rem;
+    
+    }
+    .shopping-cart{
+        padding: 1.7rem;
+        font-size: 1.7rem;
+    }
+
+}

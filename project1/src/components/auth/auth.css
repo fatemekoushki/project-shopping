@@ -1,0 +1,65 @@
+#register {
+    background-image: url("../../assets/register.svg"); ;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-size: 45%;
+    height: 100vh;
+    /* text-align: center; */
+}
+#login {
+    background-image: url("../../assets/login.svg"); ;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-size: 45%;
+    height: 100vh;
+}
+.form{
+    width: 400px;
+}
+.auth-title{
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    text-align: center
+    ;
+}
+
+.input-group {
+    padding: 5px;
+   
+}
+.input-group input {
+    width: 25rem;
+    box-sizing: border-box;
+    margin-right: 3px;
+    border: none;
+    border: 1px solid #333;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+.input-group label {
+    display: block ;
+    font-size: 1rem;
+    /* margin-left: 16rem; */
+
+}
+
+.submit-button{
+    text-align: center;
+    padding: 1rem;
+}
+.submit-button button {
+    border: none;
+    outline: navajowhite;
+    background : transparent;
+    border: 1px solid #777;
+    border-radius: 5px;
+    width: 5.5rem;
+    height: 2.3rem;
+    font-size: 1.1rem;
+    transition: .2s all ease;
+}
+.submit-button :hover{
+    background-color: #777;
+}
+

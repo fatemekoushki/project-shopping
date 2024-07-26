@@ -1,0 +1,149 @@
+#cartshopping{
+  /* height: 100vh; */
+}
+.cart-container{
+   /* width: 100rem; */
+   display: flex;
+   align-items: flex-start;
+}
+
+.title-cart {
+    font-family: vazir;
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-weight: 500;
+ }
+
+ .empty-cart {
+    font-style: 1.2rem;
+    margin-right: 1.5rem;
+    font-weight: 350;
+ }
+ 
+
+ .product-item-cart {
+   font-family: vazir;
+
+    width: 65rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+ }
+ .product-cart {
+   display: flex;
+   justify-content: space-between;
+    width: 27rem;
+    height: 17.5rem;
+    box-shadow: 0 0 5px #ccc;
+    border-radius: 15px;
+    margin-top: .7rem;
+    position: relative;
+    margin-left: .5rem;
+
+
+    text-align: center;
+    margin-right: .5rem;
+
+ }
+ .product-cart img {
+    width: 16rem;
+    height: 100%;
+    padding: .2rem;
+    object-fit: cover;
+ }
+
+ .product-cart .product-price {
+   width: 10rem;
+   position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+ .title-cart-pro {
+   position: absolute;
+   font-weight: 600;
+   top: 2rem;
+  
+  
+ }
+ .product-cart .product-price .price-product{
+   top:4rem;
+   position: absolute;
+   font-size: .8rem;
+   margin-right: .2rem;
+   font-weight: 400;
+ }
+ .product-cart .qty {
+   position: absolute;
+   top: 1px;
+   left: 3px;
+   font-size: .6rem;
+   background-color: #508D4E;
+
+   padding: .3rem;
+   color: #fff;
+   font-weight: 300;
+   border-radius: 5rem;
+}
+
+.remove-product {
+   width: 7rem;
+   position: absolute;
+   bottom: 5px;
+   outline: none;
+   border: none;
+   padding: .2rem;
+   background-color: #777 ;
+   color: #222;
+   border-radius: 1rem;
+   font-size: .7rem;
+   font-weight: 300;
+   border: 1px solid #ccc;
+   margin-right: 5px;
+   transition: .4s all ease-in-out;
+   margin: 0 auto;
+
+ }
+
+ .remove-product:hover{
+   background-color:  #f73f3f;
+   color: #fff;
+ }
+
+ .amount{
+   position: absolute;
+   bottom: 4rem;
+   left: 9%;
+ }
+ .amount button {
+   width: 1.5rem;
+   outline: none;
+   border: none;
+   margin-left: 1rem;
+   background: transparent;
+   background-color: #777;
+   padding: 5px 0;
+ }
+ .amount .plus{
+   margin-left: 50px;
+
+ }
+
+ .total-price {
+  left:7% ;
+   width: 15rem;
+   margin-top: 1.9rem;
+  flex-wrap: wrap;
+   align-items: center;
+   
+   box-shadow: 0 0 5px #ccc;
+   padding: .7rem;
+ }
+ .total-price .total-text {
+   font-size: 1rem;
+ }
+ .total-price .total {
+   font-size: 1rem;
+ }

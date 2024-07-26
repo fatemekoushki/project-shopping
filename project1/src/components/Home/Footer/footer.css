@@ -1,0 +1,38 @@
+#footer{
+    background-color: #666;
+    height: auto;
+  
+   
+}  
+.footer{
+    display: flex;
+    justify-content: space-around;
+}
+.contact{
+   
+    margin-top: 3rem;
+    font-size: .8rem;
+}
+.contact h2 {
+    margin-bottom: .5rem;
+}
+.quick-access{
+   
+    margin-top: 3rem;
+    font-size: .8rem;
+}
+.footer-links{
+    display: flex;
+    flex-direction: column;
+}
+h3{
+    text-align: center;
+    margin-top: 4rem;
+}
+
+@media screen and (max-width : 360px) {
+    .footer{
+        display: block;
+    }
+   
+}

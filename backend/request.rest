@@ -1,0 +1,31 @@
+GET  http://localhost:5000/users
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsIm5hbWUiOiJmYXJkYWQiLCJlbWFpbCI6ImVtYWlsMkBnbWFpbC5jb20iLCJpYXQiOjE2NjY1MjI1MjgsImV4cCI6MTY2NjUyMjU0M30.zyKYlN89Hv9gPZ5yvJYCId7G2OtnkkmB0oRNdWwmHP0
+
+
+####
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+     "name": "fardad",
+     "email": "email2@gmail.com",
+     "password": "111111",
+     "confPassword": "111111"
+}
+
+
+####
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+     "email": "email2@gmail.com",
+     "password": "111111"
+}
+
+
+###
+GET http://localhost:5000/token
+
+### 
+DELETE http://localhost:5000/logout
